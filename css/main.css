@@ -379,6 +379,16 @@ body {
     transition: border .3s linear; }
     .btn--save:hover {
       border-color: red; }
+  .btn--clear {
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition: -webkit-transform 1s ease-in-out;
+    -o-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out; }
+    .btn--clear:hover {
+      -webkit-transform: rotate(360deg) scale(0.85);
+          -ms-transform: rotate(360deg) scale(0.85);
+              transform: rotate(360deg) scale(0.85); }
 
 .btn:hover {
   background-color: #5cbf2a; }
