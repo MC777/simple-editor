@@ -352,6 +352,16 @@ body {
   font-size: 14px;
   font-style: italic;
   outline: none; }
+  .textarea::-webkit-input-placeholder {
+    color: red; }
+  .textarea::-moz-placeholder {
+    color: red; }
+  .textarea:-ms-input-placeholder {
+    color: red; }
+  .textarea::-ms-input-placeholder {
+    color: red; }
+  .textarea::placeholder {
+    color: red; }
 
 .btn {
   background-color: #44c767;
