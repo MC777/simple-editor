@@ -3,8 +3,9 @@
   "short_name": "SE",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
-  "display": "browser",
-  "Scope": "/simple-editor/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/simple-editor/",
   "start_url": "/simple-editor/",
   "icons": [
     {
