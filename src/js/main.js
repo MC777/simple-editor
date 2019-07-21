@@ -16,4 +16,6 @@ removeBtn.addEventListener('click', (e) => {
   localStorage.removeItem('textInput');
 })
 
-
+if (localStorage.getItem('textInput')){
+  textArea.value = localStorage.getItem('textInput');
+}
