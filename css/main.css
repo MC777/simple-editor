@@ -347,11 +347,12 @@ body {
           align-items: center; }
 
 .textarea {
-  width: 300px;
+  width: 350px;
   height: 150px;
   font-size: 14px;
   font-style: italic;
-  outline: none; }
+  outline: none;
+  margin: 6px; }
   .textarea::-webkit-input-placeholder {
     color: red; }
   .textarea::-moz-placeholder {
