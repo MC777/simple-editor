@@ -63,6 +63,12 @@ body {
       border-color: red;
     }
   }
+  &--clear{
+    transition: transform 1s ease-in-out;
+    &:hover{
+      transform: rotate(360deg) scale(0.85);
+    }
+  }
 }
 
 .btn:hover {
